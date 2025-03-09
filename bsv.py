@@ -4,7 +4,7 @@ from datetime import datetime, timedelta, timezone
 
 w = Wallet(chain=Chain.MAIN)
 
-w.add_key('KyVxW9pdr5QHzPWeZxkHizKX7bVqj92MmAJEV1MpRHTqs7C1kqHe')
+w.add_key('jj')
 print(w.get_balance(refresh=True))
 
 def lock_bsv_for_2_minutes(wallet, amount_sats):
